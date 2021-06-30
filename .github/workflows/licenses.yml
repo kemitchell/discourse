@@ -58,4 +58,4 @@ jobs:
 
       - name: License Finder
         if: ${{ always() }}
-        run: bundle exec license_finder --decisions-file=./.license_finder.yml
+        run: bundle exec license_finder --quiet --decisions-file=./.license_finder.yml
